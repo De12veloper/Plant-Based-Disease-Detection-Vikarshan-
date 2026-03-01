@@ -1,10 +1,10 @@
 # Plant Disease Prediction Web Application
 
 ## Overview
-This project is a web-based plant disease prediction application that helps farmers and gardeners identify diseases in their plants using machine learning. The core machine learning model and training code are based on the work by [AHMEDSANA](https://github.com/AHMEDSANA/Plant-Disease-Detection).
+This project is a web-based plant disease prediction application that helps farmers and gardeners identify diseases in their plants using machine learning. The core machine learning model and training code are based on the work. 
 
 ## Credits
-- Original Model & Training Code: [AHMEDSANA's Plant Disease Detection](https://github.com/AHMEDSANA/Plant-Disease-Detection)
+- Original Model & Training Code :
 - The machine learning model and training methodology are not owned by me and full credit goes to the original author.
 
 ## My Contributions
@@ -83,7 +83,4 @@ I have enhanced the original project by adding:
 6. Track market prices
 
 ## Disclaimer
-The machine learning model and training code are the intellectual property of [AHMEDSANA](https://github.com/AHMEDSANA/Plant-Disease-Detection). This project builds upon their work by adding a web interface and additional features for farm management.
-
-## License
-Please refer to the original project's license at [AHMEDSANA's Repository](https://github.com/AHMEDSANA/Plant-Disease-Detection) for the model and training code. The additional features and UI enhancements are available for use under standard open-source terms. 
+The machine learning model and training code are the intellectual property . This project builds upon their work by adding a web interface and additional features for farm management.
