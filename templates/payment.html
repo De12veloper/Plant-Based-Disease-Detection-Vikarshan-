@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vikarshan - Payment</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/static/logo.png" type="image/png">
+</head>
+<body class="bg-gradient-to-br from-green-100 to-lime-200 min-h-screen font-sans flex flex-col">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">Vikarshan</h1>
+      <nav class="space-x-6 text-gray-700 font-semibold">
+        <a href="/" class="hover:text-green-500">Home</a>
+        <a href="/dashboard" class="hover:text-green-500">Dashboard</a>
+        <a href="/payment" class="hover:text-green-500 font-bold underline">Payment</a>
+        <a href="/auth" class="bg-green-500 text-white px-4 py-1 rounded hover:bg-green-600">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Success Message -->
+  {% if name %}
+  <div class="bg-green-200 text-green-800 font-semibold text-center p-4 rounded mx-4 mt-6 shadow">
+    ✅ Payment submitted successfully for {{ name }}. Thank you!
+  </div>
+  {% endif %}
+
+  <!-- Payment Form -->
+  <main class="flex-grow flex items-center justify-center py-12">
+    <form action="/payment" method="POST" enctype="multipart/form-data" class="bg-white p-8 rounded-lg shadow-md w-full max-w-lg space-y-4">
+      <h2 class="text-2xl font-bold text-center text-green-700 mb-4">Make a Payment</h2>
+
+      <input type="text" name="name" placeholder="Full Name" class="w-full px-4 py-2 border rounded" required />
+      <input type="email" name="email" placeholder="Email" class="w-full px-4 py-2 border rounded" required />
+      <input type="number" name="amount" placeholder="Amount" class="w-full px-4 py-2 border rounded" required />
+      <input type="text" name="transaction_id" placeholder="Transaction ID" class="w-full px-4 py-2 border rounded" required />
+
+      <!-- Aadhar Upload with Preview -->
+      <label class="block text-gray-700 font-semibold">Upload Aadhar Card:</label>
+      <input type="file" id="aadhar_image" name="aadhar_image" accept="image/*" class="w-full border rounded px-4 py-2" onchange="previewAadhar()" required />
+      <img id="aadhar_preview" class="w-48 h-auto mt-2 rounded shadow border border-gray-300 hidden"/>
+
+      <!-- Reminder Checkbox -->
+      <label class="flex items-center space-x-2 text-sm text-gray-700">
+        <input type="checkbox" name="reminder" value="yes" class="accent-green-600">
+        <span>Send me a reminder email in 7 days</span>
+      </label>
+
+      <button type="submit" class="w-full bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-200">
+        Submit Payment
+      </button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner py-4 text-center text-gray-600 mt-auto">
+    © 2025 Vikarshan. All rights reserved.
+  </footer>
+
+  <!-- Aadhar Preview Script -->
+  <script>
+    function previewAadhar() {
+      const file = document.getElementById('aadhar_image').files[0];
+      const preview = document.getElementById('aadhar_preview');
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+          preview.src = e.target.result;
+          preview.classList.remove('hidden');
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+  </script>
+</body>
+</html>

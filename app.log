@@ -1,0 +1,105 @@
+2025-04-11 11:07:14,109 - __main__ - INFO - Loading class names...
+2025-04-11 11:07:14,110 - __main__ - INFO - Loaded 15 class names
+2025-04-11 11:07:14,131 - __main__ - INFO - Loading model...
+2025-04-11 11:07:14,229 - __main__ - INFO - Model loaded successfully
+2025-04-11 11:07:14,236 - __main__ - INFO - Starting Flask application...
+2025-04-11 11:07:14,236 - __main__ - INFO - Application will be available at http://localhost:5000
+2025-04-11 11:07:14,247 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 11:07:14,252 - werkzeug - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:07:22,023 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:07:22,027 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:07:25,929 - __main__ - INFO - Loading class names...
+2025-04-11 11:07:25,930 - __main__ - INFO - Loaded 15 class names
+2025-04-11 11:07:25,930 - __main__ - INFO - Loading model...
+2025-04-11 11:07:26,004 - __main__ - INFO - Model loaded successfully
+2025-04-11 11:07:26,014 - __main__ - INFO - Starting Flask application...
+2025-04-11 11:07:26,015 - __main__ - INFO - Application will be available at http://localhost:5000
+2025-04-11 11:07:26,029 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 11:07:26,032 - werkzeug - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:08:36,403 - __main__ - INFO - Loading class names...
+2025-04-11 11:08:36,404 - __main__ - INFO - Loaded 15 class names
+2025-04-11 11:08:36,422 - __main__ - INFO - Loading model...
+2025-04-11 11:08:36,501 - __main__ - INFO - Model loaded successfully
+2025-04-11 11:08:36,507 - __main__ - INFO - Starting Flask application...
+2025-04-11 11:08:36,507 - __main__ - INFO - Application will be available at http://localhost:5000
+2025-04-11 11:08:36,531 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.131:5000
+2025-04-11 11:08:36,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 11:08:36,542 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:08:39,216 - __main__ - INFO - Loading class names...
+2025-04-11 11:08:39,216 - __main__ - INFO - Loaded 15 class names
+2025-04-11 11:08:39,217 - __main__ - INFO - Loading model...
+2025-04-11 11:08:39,292 - __main__ - INFO - Model loaded successfully
+2025-04-11 11:08:39,296 - __main__ - INFO - Starting Flask application...
+2025-04-11 11:08:39,297 - __main__ - INFO - Application will be available at http://localhost:5000
+2025-04-11 11:08:39,308 - werkzeug - WARNING -  * Debugger is active!
+2025-04-11 11:08:39,312 - werkzeug - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:10:19,828 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:10:19,830 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:10:19,831 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:10:21,736 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:10:32,799 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:17:31,549 - INFO - Loading class names...
+2025-04-11 11:17:31,549 - INFO - Loaded 15 class names
+2025-04-11 11:17:31,549 - INFO - Loading model...
+2025-04-11 11:17:31,692 - INFO - Model loaded successfully
+2025-04-11 11:17:31,695 - INFO - Starting Flask application...
+2025-04-11 11:17:31,696 - INFO - Application will be available at http://127.0.0.1:5000
+2025-04-11 11:17:31,714 - WARNING -  * Debugger is active!
+2025-04-11 11:17:31,718 - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:17:57,122 - INFO - 192.168.0.131 - - [11/Apr/2025 11:17:57] "POST /register HTTP/1.1" 200 -
+2025-04-11 11:17:57,138 - INFO - Rendering index page
+2025-04-11 11:17:57,147 - INFO - 192.168.0.131 - - [11/Apr/2025 11:17:57] "GET / HTTP/1.1" 200 -
+2025-04-11 11:17:57,554 - INFO - 192.168.0.131 - - [11/Apr/2025 11:17:57] "GET /api/check-auth HTTP/1.1" 200 -
+2025-04-11 11:18:01,869 - INFO - Rendering auth page
+2025-04-11 11:18:01,879 - INFO - 192.168.0.131 - - [11/Apr/2025 11:18:01] "GET /auth HTTP/1.1" 200 -
+2025-04-11 11:18:01,992 - INFO - 192.168.0.131 - - [11/Apr/2025 11:18:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2025-04-11 11:18:09,464 - INFO - 192.168.0.131 - - [11/Apr/2025 11:18:09] "POST /login HTTP/1.1" 200 -
+2025-04-11 11:18:09,483 - INFO - Rendering index page
+2025-04-11 11:18:09,485 - INFO - 192.168.0.131 - - [11/Apr/2025 11:18:09] "GET / HTTP/1.1" 200 -
+2025-04-11 11:18:09,717 - INFO - 192.168.0.131 - - [11/Apr/2025 11:18:09] "GET /api/check-auth HTTP/1.1" 200 -
+2025-04-11 11:18:37,823 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:18:37,824 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:18:42,212 - INFO - Loading class names...
+2025-04-11 11:18:42,213 - INFO - Loaded 15 class names
+2025-04-11 11:18:42,213 - INFO - Loading model...
+2025-04-11 11:18:42,293 - INFO - Model loaded successfully
+2025-04-11 11:18:42,296 - INFO - Starting Flask application...
+2025-04-11 11:18:42,297 - INFO - Application will be available at http://127.0.0.1:5000
+2025-04-11 11:18:42,310 - WARNING -  * Debugger is active!
+2025-04-11 11:18:42,315 - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:19:58,512 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:19:58,515 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:20:03,552 - INFO - Loading class names...
+2025-04-11 11:20:03,553 - INFO - Loaded 15 class names
+2025-04-11 11:20:03,553 - INFO - Loading model...
+2025-04-11 11:20:03,648 - INFO - Model loaded successfully
+2025-04-11 11:20:03,652 - INFO - Starting Flask application...
+2025-04-11 11:20:03,652 - INFO - Application will be available at http://127.0.0.1:5000
+2025-04-11 11:20:03,664 - WARNING -  * Debugger is active!
+2025-04-11 11:20:03,668 - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:20:44,166 - INFO - Loading class names...
+2025-04-11 11:20:44,167 - INFO - Loaded 15 class names
+2025-04-11 11:20:44,167 - INFO - Loading model...
+2025-04-11 11:20:44,243 - INFO - Model loaded successfully
+2025-04-11 11:20:44,247 - INFO - Starting Flask application...
+2025-04-11 11:20:44,247 - INFO - Application will be available at http://127.0.0.1:5000
+2025-04-11 11:20:44,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 11:20:44,267 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 11:20:44,277 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:20:46,829 - INFO - Loading class names...
+2025-04-11 11:20:46,829 - INFO - Loaded 15 class names
+2025-04-11 11:20:46,829 - INFO - Loading model...
+2025-04-11 11:20:46,919 - INFO - Model loaded successfully
+2025-04-11 11:20:46,921 - INFO - Starting Flask application...
+2025-04-11 11:20:46,922 - INFO - Application will be available at http://127.0.0.1:5000
+2025-04-11 11:20:46,933 - WARNING -  * Debugger is active!
+2025-04-11 11:20:46,944 - INFO -  * Debugger PIN: 126-998-186
+2025-04-11 11:22:29,182 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:22:29,185 - INFO -  * Detected change in 'C:\\Users\\dell\\OneDrive\\Desktop\\Plant_Disease_Prediction_Vikarshan\\main.py', reloading
+2025-04-11 11:22:30,453 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:22:44,946 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-11 11:24:31,965 - INFO -  * Restarting with watchdog (windowsapi)

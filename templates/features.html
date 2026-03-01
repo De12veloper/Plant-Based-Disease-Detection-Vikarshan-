@@ -1,0 +1,90 @@
+<!-- templates/features.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Features - Vikarshan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-green-800">Vikarshan</h1>
+    <ul class="flex space-x-4">
+      <li><a href="/" class="text-green-700 hover:underline">Home</a></li>
+      <li><a href="/dashboard" class="text-green-700 hover:underline">Dashboard</a></li>
+      <li><a href="/features" class="text-green-700 hover:underline">Features</a></li>
+      <li><a href="/auth" class="text-green-700 hover:underline">Login / Signup</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Wrapper -->
+  <main class="flex-grow p-6">
+    <h1 class="text-3xl font-bold text-center mb-10 text-green-700">Select a Plant Disease</h1>
+
+    <!-- Disease Selection Buttons -->
+    <div class="flex flex-col items-center space-y-6 mb-12">
+      <button 
+        onclick="window.location.href='/buy/earlyblight'" 
+        class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300">
+        Early Blight
+      </button>
+
+      <button 
+        onclick="window.location.href='/buy/lateblight'" 
+        class="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition duration-300">
+        Late Blight
+      </button>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-10 bg-white text-gray-800">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">Features</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- Early Blight Feature -->
+          <div class="p-6 rounded-lg shadow-xl bg-gray-100">
+            <h3 class="text-xl font-semibold mb-4">Early Blight</h3>
+            <p class="mb-4">Recommended Pesticide: <span class="font-medium">Kay Bee Botanical Downy Raze 500ml</span></p>
+            <button
+              onclick="window.location.href='/buy/earlyblight'"
+              class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition duration-300">
+              Buy Now
+            </button>
+          </div>
+
+          <!-- Late Blight Feature -->
+          <div class="p-6 rounded-lg shadow-xl bg-gray-100">
+            <h3 class="text-xl font-semibold mb-4">Late Blight</h3>
+            <p class="mb-4">Recommended Pesticide: <span class="font-medium">Syngenta Ridomil Gold Fungicide 100g</span></p>
+            <button
+              onclick="window.location.href='/buy/lateblight'"
+              class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded transition duration-300">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Subscription Section -->
+        <div class="mt-16 text-center">
+          <h4 class="text-xl font-semibold mb-4">Subscribe to get more plant care solutions</h4>
+          <button 
+            onclick="window.location.href='/payment'" 
+            class="bg-white border border-green-600 text-green-600 px-6 py-3 rounded hover:bg-green-50 transition duration-300">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-4 mt-auto text-sm text-gray-600">
+    © Vikarshan. All rights reserved.
+  </footer>
+
+</body>
+</html>
