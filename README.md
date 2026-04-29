@@ -71,7 +71,7 @@ I have enhanced the original project by adding:
    ```
 4. Run the application:
    ```
-   python app.py
+   python main.py
    ```
 
 ## Usage
